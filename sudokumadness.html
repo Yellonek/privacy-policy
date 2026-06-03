@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Sudoku Madness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #fafafa;
+            --text-color: #1a1a1a;
+            --text-muted: #666666;
+            --border-color: #eaeaea;
+            --container-bg: #ffffff;
+            --card-padding: 3.5rem 3rem;
+            --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0a0a0a;
+                --text-color: #ededed;
+                --text-muted: #a0a0a0;
+                --border-color: #222222;
+                --container-bg: #121212;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 4rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 760px;
+            background: var(--container-bg);
+            padding: var(--card-padding);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.015);
+        }
+
+        header {
+            margin-bottom: 3.5rem;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section:last-of-type {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 1.25rem;
+            letter-spacing: -0.02em;
+            color: var(--text-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        p strong {
+            color: var(--text-color);
+            font-weight: 600;
+        }
+
+        ul {
+            margin-bottom: 1.25rem;
+            padding-left: 1.25rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        li ul {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            list-style-type: circle;
+        }
+
+        .contact-info {
+            background-color: var(--bg-color);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .contact-info h2 {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info p:last-child {
+            margin-bottom: 0;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* Responsive styling */
+        @media (max-width: 640px) {
+            body {
+                padding: 2rem 1rem;
+            }
+            .container {
+                padding: 2.5rem 1.75rem;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last updated: May 21, 2026</p>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>This Privacy Policy describes how <strong>Sudoku Madness</strong> ("the App") collects, uses, and protects user information.</p>
+        <p>The App is operated by <strong>Michał Dubiel Softec</strong>, ul. Legionistów 12b, 32-086 Boleń, Poland ("we", "us", or "our").</p>
+        <p>By using the App, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+    </section>
+
+    <section>
+        <h2>Information We Collect</h2>
+        <h3>Personal Information</h3>
+        <p>The App does not directly collect personally identifiable information such as name, email address, or phone number.</p>
+
+        <h3>Automatically Collected Information</h3>
+        <p>The App may collect and process the following data:</p>
+        <ul>
+            <li>Device identifiers</li>
+            <li>Unity Authentication user identifiers</li>
+            <li>Google Play Games identifiers (used for authentication)</li>
+            <li>Gameplay-related data such as:
+                <ul>
+                    <li>number of games played</li>
+                    <li>number of games won</li>
+                    <li>game duration</li>
+                    <li>highest scores</li>
+                    <li>progress and statistics</li>
+                </ul>
+            </li>
+        </ul>
+        <p>This data is required to provide core gameplay functionality, cloud saving, and account synchronization.</p>
+    </section>
+
+    <section>
+        <h2>Authentication and Login</h2>
+        <p>The App uses Unity <strong>Authentication</strong> to manage user identity.</p>
+        <p>Users may sign in using <strong>Google Play Login</strong>, which acts as an authentication provider. During this process:</p>
+        <ul>
+            <li>authentication is handled securely by Google Play Services,</li>
+            <li>Unity Authentication creates a unique user identifier,</li>
+            <li>the App does not access or store Google account credentials.</li>
+        </ul>
+        <p>Google may process user data in accordance with its own privacy policies.</p>
+    </section>
+
+    <section>
+        <h2>Cloud Save</h2>
+        <p>The App uses <strong>Unity Cloud Save</strong>, a Unity service that enables cloud-based storage of gameplay data.</p>
+        <p>Unity Cloud Save may process:</p>
+        <ul>
+            <li>gameplay progress</li>
+            <li>game statistics</li>
+            <li>device identifiers</li>
+            <li>Unity Authentication user identifiers</li>
+        </ul>
+        <p>This data is used solely to synchronize game progress across devices and sessions.</p>
+    </section>
+
+    <section>
+        <h2>In-App Purchases</h2>
+        <p>The App offers optional in-app purchases processed through <strong>Google Play Billing</strong>.</p>
+        <p>We do not collect, store, or process payment information. All payment transactions are handled directly by Google.</p>
+    </section>
+
+    <section>
+        <h2>Third-Party Services</h2>
+        <p>The App uses the following third-party services:</p>
+        <ul>
+            <li><strong>Unity Services</strong> (Unity Authentication, Unity Cloud Save)</li>
+            <li><strong>Google Play Services</strong> (authentication and billing)</li>
+        </ul>
+        <p>These services may collect information in accordance with their respective privacy policies.</p>
+    </section>
+
+    <section>
+        <h2>How We Use Data</h2>
+        <p>Collected data is used to:</p>
+        <ul>
+            <li>provide and maintain App functionality</li>
+            <li>authenticate users</li>
+            <li>save and restore game progress</li>
+            <li>improve gameplay experience</li>
+            <li>comply with legal obligations</li>
+        </ul>
+        <p>We do not sell, rent, or share user data with third parties for marketing or advertising purposes.</p>
+    </section>
+
+    <section>
+        <h2>Data Retention</h2>
+        <p>Data is retained only for as long as necessary to provide the App’s functionality or as required by law.</p>
+        <p>Users may delete locally stored data by uninstalling the App. Cloud-stored data may remain associated with the user’s Unity Authentication account.</p>
+    </section>
+
+    <section>
+        <h2>Children’s Privacy</h2>
+        <p>The App does not knowingly collect personal data from children under the age of 13.</p>
+        <p>If you believe that a child has provided personal data, please contact us so we can take appropriate action.</p>
+    </section>
+
+    <section>
+        <h2>Your Rights (GDPR)</h2>
+        <p>If you are located in the European Economic Area (EEA), you have the right to:</p>
+        <ul>
+            <li>access your data</li>
+            <li>request correction or deletion</li>
+            <li>restrict or object to processing</li>
+        </ul>
+        <p>To exercise these rights, please contact us using the information below.</p>
+    </section>
+
+    <section>
+        <h2>Security</h2>
+        <p>We take reasonable technical and organizational measures to protect user data from unauthorized access, alteration, disclosure, or destruction.</p>
+    </section>
+
+    <section>
+        <h2>User Data Deletion</h2>
+        <p>Users of our application can request the deletion of their data (including game saves stored in Unity Cloud Services) at any time. To initiate this process, please send an email to: <strong>magdzmic@gmail.com</strong> with the subject line "Request for Data Deletion".</p>
+        <p>Once we receive your request, we will process it and remove all data associated with your account from our systems as soon as possible.</p>
+    </section>
+
+    <section>
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be effective immediately upon publication.</p>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>If you have any questions regarding this Privacy Policy, please contact:</p>
+        <p><strong>Email:</strong> magdzmic@gmail.com</p>
+        <p><strong>Developer:</strong> Michał Dubiel Softec</p>
+        <p><strong>Address:</strong> ul. Legionistów 12b, 32-086 Boleń, Poland</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2026 Sudoku Madness. All rights reserved.
+</footer>
+
+</body>
+</html>
